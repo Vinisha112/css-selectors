@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=Dancing+Script&family=Quintessential&family=Raleway:ital,wght@1,200&family=Source+Serif+4:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+div>img{
+    height: 75%;
+}
+
+#heading{
+    color: darkgreen;
+    margin-top: 10px;
+}
+
+div:hover{
+    background-color: lightgreen;
+}
+
+div:active{
+    background-color: darkgreen;
+}
